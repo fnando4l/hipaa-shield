@@ -2,7 +2,7 @@
 
 **Scan documents for PHI violations before they become compliance incidents.**
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-hipaa--shield.netlify.app-blue?style=flat-square)](https://hipaa-shield.netlify.app)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_App-blue?style=for-the-badge)](https://hipaa-shield.netlify.app)
 [![MIT License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react)](https://react.dev)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38BDF8?style=flat-square&logo=tailwind-css)](https://tailwindcss.com)
