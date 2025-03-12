@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #030712;
+    color: #f1f5f9;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  #root {
+    min-height: 100vh;
+  }
+}
+
+@layer utilities {
+  .highlight-critical {
+    background-color: rgba(239, 68, 68, 0.28);
+    border-bottom: 2px solid #ef4444;
+    border-radius: 3px;
+    padding: 1px 2px;
+    cursor: pointer;
+  }
+  .highlight-high {
+    background-color: rgba(249, 115, 22, 0.28);
+    border-bottom: 2px solid #f97316;
+    border-radius: 3px;
+    padding: 1px 2px;
+    cursor: pointer;
+  }
+  .highlight-medium {
+    background-color: rgba(234, 179, 8, 0.28);
+    border-bottom: 2px solid #eab308;
+    border-radius: 3px;
+    padding: 1px 2px;
+    cursor: pointer;
+  }
+}
